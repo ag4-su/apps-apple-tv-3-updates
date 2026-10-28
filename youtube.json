@@ -1,0 +1,48 @@
+{
+  "revision": 1,
+  "source": "yt-dlp 2026.10.26, player client visionos",
+  "page": {
+    "url": "https://www.youtube.com/watch?v={id}&bpctr=9999999999&has_verified=1",
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "Accept-Language": "en-us,en;q=0.5"
+    },
+    "visitor": "\"VISITOR_DATA\":\"([^\"]+)\"",
+    "sts": "\"STS\":(\\d+)",
+    "ttl": 21600
+  },
+  "clients": [
+    {
+      "name": "visionos",
+      "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_7_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+        "X-YouTube-Client-Name": "101",
+        "X-YouTube-Client-Version": "1.02",
+        "Origin": "https://www.youtube.com"
+      },
+      "client": {
+        "clientName": "VISIONOS",
+        "clientVersion": "1.02",
+        "deviceMake": "Apple",
+        "deviceModel": "RealityDevice17,1",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_7_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15",
+        "osName": "visionOS",
+        "osVersion": "26.5.23O471",
+        "hl": "en",
+        "timeZone": "UTC",
+        "utcOffsetMinutes": 0
+      },
+      "body": {
+        "playbackContext": {"contentPlaybackContext": {"html5Preference": "HTML5_PREF_WANTS"}},
+        "contentCheckOk": true,
+        "racyCheckOk": true
+      },
+      "sts": false
+    }
+  ],
+  "tv": {
+    "client": {"clientName": "TVHTML5", "clientVersion": "7.20260311.12.00", "hl": "ru", "gl": "RU"},
+    "stsSuffix": "001"
+  }
+}
